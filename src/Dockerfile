@@ -25,6 +25,7 @@ RUN chown -R www-data:www-data /var/www/html
 
 COPY nginx.conf /etc/nginx/sites-available/default
 COPY start.sh /start.sh
+COPY index.html /var/www/html/index.html
 
 RUN dos2unix /start.sh && chmod +x /start.sh
 

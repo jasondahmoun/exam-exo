@@ -37,7 +37,7 @@ echo "<h1>Exam docker wordpress</h1>";
 echo "<ul>";
 echo "<li><a href='/wordpress/'>WordPress</a></li>";
 echo "<li><a href='/phpmyadmin/'>phpMyAdmin</a></li>";
-echo "<li><a href='/files/'>Autoindex folder</a></li>";
+echo "<li><a href='/files/'>Index des fichiers</a></li>";
 echo "</ul>";
 PHP
 
